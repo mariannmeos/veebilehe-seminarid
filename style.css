@@ -1,9 +1,6 @@
 body {
 margin: 25px;
 background-color:antiquewhite;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 16px;
-text-align: justify;
 }
 
 h1 {
@@ -13,6 +10,31 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size:40px;
 font-variant:small-caps;
 margin-top: 5px;
+column-span: all;
+}
+
+p {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 16px;
+text-align: justify
+}
+
+.link1 {
+float:left;
+color:burlywood
+}
+
+.link2{
+color:burlywood
+}
+
+a:hover {
+color:#bb925e
+}
+
+img {
+width: 300px;
+float:right;
 }
 
 h2 {
@@ -23,3 +45,19 @@ font-size: 30px;
 font-variant: small-caps;
 }
 
+h3 {
+color:burlywood;
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 30px;
+font-variant: small-caps;
+}
+
+table, tr, th {
+border: 1px solid;
+}
+
+th {
+font-weight:bold;
+text-align: center;
+}
