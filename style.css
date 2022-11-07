@@ -1,26 +1,23 @@
 body {
 background-color:antiquewhite;
-column-count: 2;
+font-family:Georgia;
+font-size: 15px;
+text-align: justify;
 }
 
 h1 {
 color: #bb925e;
-text-align:left;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size:40px;
+text-align:center;
+font-family:'Segoe UI';
+font-size:34px;
 font-variant:small-caps;
-margin-top: 5px;
-}
-
-p {
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 16px;
-text-align: justify;
-float:left;
+letter-spacing: 0.1em;
+margin-top: 1px;
 }
 
 a {
-color:burlywood
+color:#bb925e;
+padding: 5px;
 }
 
 .link1 {
@@ -29,36 +26,42 @@ display: block;
 }
 
 a:hover {
-color:#bb925e
+color:burlywood
+}
+
+.lisabox {
+    padding-left:15%
 }
 
 img {
-width: 350px;
+width: 315px;
 border-left:2px black solid;
 border-right: 2px black solid;
 border-top: 2px black solid;
-border-bottom: 2px black solid
+border-bottom: 2px black solid;
 }
 
 
 h2 {
 color:burlywood;
 text-align: center;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 30px;
+font-family:'Segoe UI';
+font-size: 26px;
 font-variant: small-caps;
 }
 
 h3 {
 color:burlywood;
 text-align: center;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 30px;
+font-family:'Segoe UI';
+font-size: 26px;
 font-variant: small-caps;
 }
 
-table, tr, th {
+table, td, th {
 border: 1px solid;
+border-collapse: collapse;
+padding: 5px
 }
 
 th {
@@ -68,10 +71,12 @@ text-align: center;
 
 .box1 {
 width: 40%;
-float:fit-content
+float:left;
+margin:auto
 }
 
 .box2 {
 width: 60%;
-float:fit-content
+float:left;
+margin:auto
 }
