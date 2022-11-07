@@ -1,6 +1,6 @@
 body {
-margin: 25px;
 background-color:antiquewhite;
+column-count: 2;
 }
 
 h1 {
@@ -10,22 +10,22 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size:40px;
 font-variant:small-caps;
 margin-top: 5px;
-column-span: all;
 }
 
 p {
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 16px;
-text-align: justify
+text-align: justify;
+float:left;
+}
+
+a {
+color:burlywood
 }
 
 .link1 {
 float:left;
-color:burlywood
-}
-
-.link2{
-color:burlywood
+display: block;
 }
 
 a:hover {
@@ -33,9 +33,13 @@ color:#bb925e
 }
 
 img {
-width: 300px;
-float:right;
+width: 350px;
+border-left:2px black solid;
+border-right: 2px black solid;
+border-top: 2px black solid;
+border-bottom: 2px black solid
 }
+
 
 h2 {
 color:burlywood;
@@ -60,4 +64,14 @@ border: 1px solid;
 th {
 font-weight:bold;
 text-align: center;
+}
+
+.box1 {
+width: 40%;
+float:fit-content
+}
+
+.box2 {
+width: 60%;
+float:fit-content
 }
